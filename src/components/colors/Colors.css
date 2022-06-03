@@ -1,0 +1,56 @@
+#colors {
+  margin: 1em 0em;
+  padding: 0.3em;
+  background-color: black;
+  border-radius: 0.5em;
+}
+
+#colors button {
+  height: 7em;
+  width: 7em;
+  margin: 0.5em;
+  border: none;
+  border-radius: 0.5em;
+  opacity: 80%;
+  transition: all 0.3s ease; 
+}
+
+#colors button:hover {
+  cursor: pointer;
+}
+
+#red {
+  background-color: red;
+}
+
+#red.hover {
+  opacity: 100%;
+  box-shadow: 0px 0px 30px 10px red;
+}
+
+#green {
+  background-color: lime;
+}
+
+#green.hover {
+  opacity: 100%;
+  box-shadow: 0px 0px 30px 10px lime;
+}
+
+#blue {
+  background-color: aqua;
+}
+
+#blue.hover {
+  opacity: 100%;
+  box-shadow: 0px 0px 30px 10px aqua;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#yellow.hover {
+  opacity: 100%;
+  box-shadow: 0px 0px 30px 10px yellow;
+}

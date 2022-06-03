@@ -1,0 +1,18 @@
+#display {
+  height: 2em; /* Same height as font-size */
+  width: 2.5em;
+  margin: auto;
+  padding-top: 0.35em;
+  background-color: black;
+  color: #39FF14;
+  font-size: 2em;
+  border-radius: 0.5em;
+  text-align: center;
+  text-shadow: 
+    /* top-bottom blur */
+    0 -0.05em 0.1em #39FF14,
+    0 0.05em 0.1em #39FF14,
+    /* left-right blur */
+    -0.05em 0 0.1em #39FF14,
+    0.05em 0 0.1em #39FF14;
+}
