@@ -55,7 +55,7 @@ export default function Colors(props) {
     let i = 0
     while(i <= seqIdx) {
       let colorEl = document.getElementById(seq[i]);
-      await timeout(300);
+      await timeout(500);
       // Play audio
       if(audio1.paused) {
         audio1.play();
@@ -65,7 +65,7 @@ export default function Colors(props) {
       colorEl.classList.add("hover");
       await timeout(300);
       colorEl.classList.remove("hover");
-      await timeout(300);
+      await timeout(500);
       i++;
     }
   };
