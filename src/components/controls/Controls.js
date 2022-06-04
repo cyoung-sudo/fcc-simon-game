@@ -73,7 +73,9 @@ export default function Controls(props) {
         </button>
       </div>
       <div>
-        <button id="power" onClick={() => powerHandler()} style={{color: power ? "#39FF14" : "hsla(0, 0%, 90%, 0.5)"}}><FaPowerOff/></button>
+        <button id="power" onClick={() => powerHandler()} style={{color: power ? "#39FF14" : "hsla(0, 0%, 90%, 0.5)"}}>
+          <span><FaPowerOff/></span>
+        </button>
       </div>
     </div>
   );
