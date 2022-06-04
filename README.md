@@ -27,7 +27,7 @@ To Visit App:
 
 - Application features:
     - Play simon in regular or strict mode
-- Application features:
+- Application issues:
     - When color sequence is played, audio fails after first color for mobile
 - What was the purpose of this project?
     - Practicing front-end development using the React library
