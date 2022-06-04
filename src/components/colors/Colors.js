@@ -57,11 +57,7 @@ export default function Colors(props) {
       let colorEl = document.getElementById(seq[i]);
       await timeout(500);
       // Play audio
-      if(audio1.paused) {
-        audio1.play();
-      } else {
-        audio1.currentTime = 0
-      }
+      audio1.play();
       colorEl.classList.add("hover");
       await timeout(2000);
       colorEl.classList.remove("hover");
