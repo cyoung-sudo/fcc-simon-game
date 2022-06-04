@@ -63,7 +63,7 @@ export default function Colors(props) {
         audio1.currentTime = 0
       }
       colorEl.classList.add("hover");
-      await timeout(300);
+      await timeout(500);
       colorEl.classList.remove("hover");
       await timeout(500);
       i++;
