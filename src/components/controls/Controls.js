@@ -72,11 +72,9 @@ export default function Controls(props) {
           strict<span style={{color: strict ? "#39FF14" : "hsla(0, 0%, 90%, 0.5)"}}><GoPrimitiveDot/></span>
         </button>
       </div>
-      <div>
-        <button id="power" onClick={() => powerHandler()} style={{color: power ? "#39FF14" : "hsla(0, 0%, 90%, 0.5)"}}>
-          <span><FaPowerOff/></span>
-        </button>
-      </div>
+      <button id="power" onClick={() => powerHandler()} style={{color: power ? "#39FF14" : "hsla(0, 0%, 90%, 0.5)"}}>
+        <span><FaPowerOff/></span>
+      </button>
     </div>
   );
 };
