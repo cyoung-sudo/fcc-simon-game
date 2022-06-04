@@ -30,18 +30,12 @@
   margin: 0em 0.5em;
 }
 
-#strict span { 
-  display: inline-block;
-  margin: auto;
-}
 
 #power {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 2em;
   width: 2em;
   font-size: 1.5em;
-}
-
-#power span { 
-  display: inline-block;
-  margin: auto;
 }
